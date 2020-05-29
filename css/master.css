@@ -77,3 +77,63 @@ float: right;
   color:black;
   padding-bottom: 20px;
 }
+
+
+
+/*  MAIN */
+
+
+/* regole sezione partner */
+
+#partnerarea {
+  text-align: center;
+  background-color:  #f3f5f9;
+}
+
+#partnerarea .row {
+  padding: 20px 0;
+}
+
+#partnerarea img {
+  max-width: 100%;
+}
+
+#partnerarea h5 {
+  font-weight: bold;
+  color: grey;
+}
+
+
+/*  regole sezione DEploy */
+
+.deploytoptext {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.deploytoptext h2 {
+  font-weight: bold;
+}
+
+.deploytoptext p {
+  font-size: 1.5em;
+  color: gray;
+}
+
+#deploy ul {
+  list-style: none;
+  border-left: 1px solid gray;
+}
+
+#deploy li {
+  padding: 8px 5px;
+}
+
+#deploy h5 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#deploy p {
+  color: grey;
+}
