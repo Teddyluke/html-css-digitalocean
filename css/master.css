@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centratura {
+  padding: 0 5%;
+}
+/* Regole navbar */
+
+#navbar ul, #navbar li {
+  display: inline-block;
+  padding: 5px;
+}
+
+#navbar ul:nth-of-type(even) {
+float: right;
+}
+
+#navbar img {
+  max-width: 100%;
+  padding-top: 5px;
+}
+
+
+/* regole jumbotron */
+
+#jumbotron {
+  background-image: url(../img/jumbo.svg);
+}
+
+#jumbotron h1 {
+  color: white;
+  font-size: 4em;
+}
+
+#jumbotron p {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.form {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form h3 {
+  font-weight:bold;
+}
+
+.form h3:first-of-type {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.form h3:last-of-type {
+  color: blue;
+}
+
+.form input, .form button {
+  width: 95%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form button:first-of-type {
+  background-color: blue;
+  color: white;
+}
+
+#jumbotron .form p {
+  font-size: 0.9em;
+  color:black;
+  padding-bottom: 20px;
+}
