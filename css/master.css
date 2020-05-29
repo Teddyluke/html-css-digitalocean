@@ -5,7 +5,7 @@
 }
 
 .centratura {
-  padding: 0 5%;
+  padding: 0 8%;
 }
 /* Regole navbar */
 
@@ -137,3 +137,102 @@ float: right;
 #deploy p {
   color: grey;
 }
+
+/* regole primo carosello */
+
+.carosello1 {
+  background-color: #f3f5f9;
+  text-align: center;
+}
+
+.carosello1 h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.carosello1 p {
+  font-size: 1.5em;
+  color: grey;
+}
+.carosello1 img {
+  min-width: 30%;
+  max-width: 60%;
+}
+
+.carosello1 i {
+  font-size: 2.5em;
+}
+
+.carosello1 .fa-circle {
+  font-size: 1em;
+  color: blue;
+  padding-bottom: 30px;
+}
+
+.carosello1 h3 {
+  color: darkblue;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width:991px) {
+  .carosello1 .fa-chevron-left, .carosello1 .fa-chevron-right {
+    display: none;
+  }
+}
+
+
+/* regole sezione features */
+
+#features {
+  margin-bottom: 30px;
+}
+#features h3 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#features h5 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#features p {
+  color: grey;
+}
+
+
+/* regole sezione speedtest */
+
+#speedtest {
+  background-color: #031b4e;
+}
+
+#speedtest table {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+#speedtest tr {
+  border-bottom: 1px solid white;
+}
+
+#speedtest td, #speedtest th {
+  padding: 8px 0;
+  color: white;
+}
+
+#speedtest th {
+  width: 20%;
+}
+
+#speedtest table td:last-of-type {
+  text-align: right;
+}
+
+#speedtest table tr:last-of-type {
+  border-bottom: none;
+}
+
+/*  dev teams SECONDO CAROSELLO  */
