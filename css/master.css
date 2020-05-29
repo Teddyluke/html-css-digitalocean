@@ -9,7 +9,7 @@
 }
 /* Regole navbar */
 
-#navbar ul, #navbar li {
+#menunormale ul, #menunormale li {
   display: inline-block;
   padding: 5px;
 }
@@ -138,7 +138,7 @@ float: right;
   color: grey;
 }
 
-/* regole primo carosello */
+/* regole primo/secondo carosello */
 
 .carosello1 {
   background-color: #f3f5f9;
@@ -235,4 +235,26 @@ float: right;
   border-bottom: none;
 }
 
-/*  dev teams SECONDO CAROSELLO  */
+
+
+/*  TEST NAVBAR HAMBURGER */
+@media screen and (min-width:1199px) {
+ #menuhamburger {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 1199px) {
+  #menunormale {
+    display: none;
+  }
+  #menuhamburger .dropdown {
+    display: none;
+  }
+  #menuhamburger {
+    float: right;
+  }
+  #menuhamburger:hover .dropdown{
+    display: block;
+  }
+}
