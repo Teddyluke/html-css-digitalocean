@@ -206,7 +206,13 @@ float: right;
 /* regole sezione speedtest */
 
 #speedtest {
-  background-color: #031b4e;
+  background-color: #1549b2;
+}
+
+#speedtest h2 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
 }
 
 #speedtest table {
@@ -235,7 +241,65 @@ float: right;
   border-bottom: none;
 }
 
+/* regole get started */
+#getstarted {
+  background-color: #1549b2;
+  text-align: center;
+  height: 120px;
+}
 
+#getstarted h2 {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+#getstarted a {
+  text-decoration: none;
+  padding: 10px 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* regole footer */
+
+#footer {
+  background-color: #031b4e;
+}
+
+#footer img {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#footer p {
+  color: lightgrey;
+}
+
+#footer span {
+  color: #bcbcbc;
+}
+
+#footer i {
+  font-size: 1.5em;
+  padding: 10px 5px;
+}
+
+
+#footer h5 {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 20px;
+}
+
+#footer ul {
+  list-style: none;
+}
+
+#footer a {
+  text-decoration: none;
+  color: lightgrey;
+}
 
 /*  TEST NAVBAR HAMBURGER */
 @media screen and (min-width:1199px) {
